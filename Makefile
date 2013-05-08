@@ -1,10 +1,10 @@
 CC=g++
-CPPFLAGS=-lboost_regex-mt -lcurses
+LIBS=-lboost_regex -lcurses
 
 all:	main
 
 main:	
-	$(CC) $(CPPFLAGS) mano.cpp -o mano
+	$(CC) mano.cpp -o mano $(LIBS)
 
 clean:
 	rm -rf *.o *.a mano
