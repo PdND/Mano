@@ -1,0 +1,10 @@
+	LDA n1
+	CMA
+	INC
+	ADD n2
+	STA r
+	HLT
+
+n1,	DEC 2
+n2, DEC 6
+r, DEC 0
