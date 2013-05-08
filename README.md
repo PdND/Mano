@@ -49,3 +49,9 @@ Emulation done
 0007: 0006
 0008: 0004
 ```
+
+Dependencies
+-------------
+
++ boost (http://www.boost.org)
++ (n)curses
