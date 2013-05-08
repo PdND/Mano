@@ -13,7 +13,7 @@ make
 or
 
 ```
-g++ mano.cpp -lboost_regex-mt -lcurses -o mano
+g++ mano.cpp -o mano -lboost_regex -lcurses
 ```
 
 Usage
